@@ -19,6 +19,5 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 RUN \
-  npm config set prefix /usr/local && \
   npm install -g serverless && \
   npm sls plugin install -n serverless-python-requirements
