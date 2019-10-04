@@ -17,3 +17,8 @@ RUN \
   pip install -U pip && pip install pipenv && \
   npm i -g npm@^6 && \
   rm -rf /var/lib/apt/lists/*
+
+RUN \
+  npm config set prefix /usr/local && \
+  npm install -g serverless && \
+  npm sls plugin install -n serverless-python-requirements
