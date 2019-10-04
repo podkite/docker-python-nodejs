@@ -1,5 +1,5 @@
 FROM python:stretch
-MAINTAINER Nikolai R Kristiansen <nikolaik@gmail.com>
+MAINTAINER Jalal Fathi <dev@podkite.com>
 
 # Install node prereqs, nodejs and yarn
 # Ref: https://deb.nodesource.com/setup_10.x
