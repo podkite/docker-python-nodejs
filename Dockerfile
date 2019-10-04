@@ -19,4 +19,3 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 RUN npm install -g serverless
-RUN sls plugin install -n serverless-python-requirements
